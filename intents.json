@@ -1,0 +1,433 @@
+{
+  "intents": [
+    {
+      "tag": "name",
+      "patterns": ["what is your name?","what is your name","what do you do"],
+      "responses":["I am a chat bot Hitrakshak,I am here to aware you about consumer rights!"],
+      "context": ["general"]
+    }
+      ,
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","Hii", "Hello", "Hey", "Good morning", "Good afternoon"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?", "Hey! What can I do for you?", "Good morning! How may I assist you?", "Good afternoon! How can I help you?"],
+      "context": ["general"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks a lot", "Thanks so much", "Appreciate it", "Thank you very much"],
+      "responses": ["You're welcome!", "Happy to help!", "Glad I could assist!", "No problem! Let me know if you need anything else."],
+      "context": ["general"]
+    },
+    {
+      "tag": "chatgpt_like_response_to_emotion",
+      "patterns": ["I'm feeling scammed", "I'm low right now", "I'm so low"],
+      "responses": ["I understand, emotions can be complex. If you'd like to talk more about it, I'm here to listen."],
+      "context": ["general"]
+    },
+
+    {
+      "tag": "chatgpt_like_humor",
+      "patterns": ["Tell me a joke", "Do you have a sense of humor?", "Make me laugh"],
+      "responses": ["Sure, here's one: Why don't skeletons fight each other?\n They don't have the guts!. Hope that brought a smile to your face!","Sure, here's one: Why don't scientists trust atoms?\n Because they make up everything!. Hope that brought a smile to your face!"],
+      "context": ["general"]
+    },
+    {
+      "tag": "chatgpt_like_personalization",
+      "patterns": ["What's your favorite topic?", "Do you have any hobbies?", "Tell me more about yourself"],
+      "responses": ["I don't have personal preferences or hobbies like humans do, but I'm here to assist you with any questions or topics you'd like to discuss!"],
+      "context": ["general"]
+    },
+
+    {
+      "tag": "chatgpt_like_small_talk",
+      "patterns": ["How's your day going?","how are you doing","how are you", "What's new with you?", "Got any plans for the weekend?"],
+      "responses": ["My 'day' is always the same, just here to chat with you! How about you? How's your day going?"],
+      "context": ["general"]
+    },
+
+    
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you later", "Take care", "Until next time"],
+      "responses": ["Goodbye! Have a great day!", "Bye! Take care!", "See you later! Have a good one!", "Take care! Goodbye!", "Until next time!"],
+      "context": ["general"]
+    },
+
+    {
+      "tag": "introduction",
+      "patterns": ["what is your name", "who are you", "how can you help me"],
+      "responses": ["Myself 'HitRakshak!' Your personal chatbot assistant who will help you to know you consumer rights"],
+      "context": ["general"]
+    },
+    
+    
+    {
+        "tag": "consumer_rights_info",
+        "patterns": ["What are my consumer rights?", "Can you tell me about consumer rights?", "I need information about my rights as a consumer", "What laws protect consumers?", "Consumer rights"],
+        "responses": ["Consumer rights encompass a set of laws and regulations designed to protect buyers in the marketplace. They include the right to safety, the right to be informed, the right to choose, and the right to be heard."]
+      },
+
+      {
+        "tag": "refund_website",
+        "patterns": [  "How do I return a faulty product?","how to return defective product","give me more info on return of faulty product"],
+        "responses": ["You have the right to a refund if the product is faulty or not as described. You may need to return the item within a certain timeframe and provide proof of purchase. for more info please visit https://www.consumer.ftc.gov/articles/0176-buyers-remorse-when-ftcs-cooling-rule-may-help."]
+      },
+
+
+      {
+        "tag": "refund",
+        "patterns": [ "what is refund?",  "what does refund means?", "what does refund refers to?", "what do you mean by refund"],
+        "responses": ["A refund in consumer rights refers to the return of money to a consumer for a product or service that they are dissatisfied with or unable to use for some reason. It's a fundamental aspect of consumer rights, ensuring that consumers are protected from unfair practices or defective products. When a consumer exercises their right to a refund, they typically return the product or cancel the service and receive back the money they paid for it. Refunds are often provided for reasons such as receiving a defective item, not receiving the item at all, or finding the product doesn't meet the advertised specifications."]
+
+      },
+
+
+      {
+        "tag": "cancellation",
+        "patterns": ["How do I cancel a subscription?", "I want to cancel my membership", "Can I unsubscribe from this service?", "What's the process for cancelling an order?", "I no longer want this subscription"],
+        "responses": ["You can typically cancel a subscription or membership by contacting the service provider directly. They may have specific instructions or requirements for cancellation."]
+      },
+      {
+        "tag": "defective_product",
+        "patterns": ["What should I do if I receive a defective product?","What to do when a product received is damaged", "Can I get a replacement for this faulty item?", "This product doesn't work properly", "How do I return a defective product?", "What are my rights if the item is damaged?"],
+        "responses": ["If you receive a defective product, you may be entitled to a repair, replacement, or refund depending on the circumstances. Contact the seller or manufacturer to discuss your options."]
+      },
+      {
+        "tag": "legal_advice",
+        "patterns": ["Do I need legal advice for this issue?", "Should I consult a lawyer?", "Is this a legal matter?", "Can you provide legal assistance?", "I'm not sure if I need legal help"],
+        "responses": ["While I can provide general information, it's always a good idea to consult with a legal professional, especially for complex or serious issues. They can offer personalized advice based on your specific situation."]
+      },
+      {
+        "tag": "consumer_rights",
+        "patterns": ["list some consumer rights", "name some consumer rights", "give me example of consumer rights", "list down some consumer rights"],
+        "responses": ["Certainly! Here are some fundamental consumer rights recognized in many jurisdictions:\n-Right to Safety: Consumers have the right to be protected against goods and services that are hazardous to their health or safety.\n-Right to Information: Consumers have the right to receive accurate and truthful information about products and services, including their price, ingredients, usage, and potential risks.\n-Right to Choice: Consumers have the right to choose from a variety of products and services at competitive prices, without being subjected to monopolistic practices.\n-Right to Redress: Consumers have the right to seek compensation or remedy for faulty or substandard products or services./n-Right to Consumer Education: Consumers have the right to be educated about their rights and responsibilities as consumers, as well as about how to make informed purchasing decisions.\n-Right to Representation: Consumers have the right to form or join consumer organizations and to have their interests represented in decision-making processes that affect them.\n-Right to Privacy: Consumers have the right to privacy in their transactions and to protection of their personal information from misuse.\n-Right to Sustainable Environment: Consumers have the right to live and work in an environment that enhances the quality of their life and well-being, without being exposed to environmental hazards caused by business activities."]
+      },
+
+
+      {
+        "tag": "additional_help",
+        "patterns": ["Where can I find more information?", "Do you have any resources on consumer rights?", "Can you recommend any websites?", "I need additional help", "Where can I seek further assistance?"],
+        "responses": ["You can find more information on consumer rights from government websites, consumer protection agencies, or legal aid organizations. They often provide resources, guides, and contact information for seeking help."]
+      },
+
+      {
+        "tag": "product_exchange",
+        "patterns": ["Can I exchange this item?", "I received the wrong product", "How do I exchange a product?", "What's the process for exchanging an item?", "Can I swap this for something else?"],
+        "responses": ["Many retailers offer exchanges for items that are unused and in their original packaging. You may need to provide proof of purchase and adhere to the store's exchange policy."]
+      },
+      {
+        "tag": "shipping_issues",
+        "patterns": ["My order hasn't arrived yet", "The package is delayed", "What should I do if my delivery is late?", "Can I track my shipment?", "How do I report a shipping problem?"],
+        "responses": ["If your order is delayed or hasn't arrived, contact the seller or shipping provider for assistance. They can provide updates on your shipment and help resolve any issues."]
+      },
+      {
+        "tag": "pricing_concerns",
+        "patterns": ["Why did the price change?", "I was charged the wrong amount", "What are my rights if I'm overcharged?", "Can I dispute the price?", "How do I get a refund for an overcharged item?"],
+        "responses": ["If you believe you've been overcharged or charged the wrong amount, you can dispute the price with the seller or your payment provider. Keep records of your transactions and communicate your concerns clearly."]
+      },
+      {
+        "tag": "contract_terms",
+        "patterns": ["What are the terms and conditions?", "Can I see the contract?", "I need clarification on the terms", "Are there any hidden fees?", "What am I agreeing to by making this purchase?"],
+        "responses": ["It's important to review the terms and conditions of any contract or agreement before making a purchase. Look for information on warranties, returns, fees, and other important details. If you have questions, don't hesitate to ask the seller for clarification."]
+      },
+      {
+        "tag": "fraud_protection",
+        "patterns": ["How do I protect myself from fraud?","how can i protect myself from fraud","how to avoid fraud", "What should I do if I suspect fraud?", "Can you help me with identity theft?", "Are there any scams I should be aware of?", "How can I avoid fraudulent transactions?"],
+        "responses": ["To protect yourself from fraud, be cautious when sharing personal or financial information online. Use secure websites for transactions, monitor your accounts regularly, and report any suspicious activity to your bank or authorities immediately."]
+      },
+      {
+        "tag": "complaint_resolution",
+        "patterns": ["How do I file a complaint?", "how to file complaint","how to complaint","Can you help me resolve a dispute?", "What's the process for lodging a complaint?", "I'm unhappy with the service, what can I do?", "How do I escalate a complaint?"],
+        "responses": ["If you have a complaint or dispute with a seller, try to resolve it directly with them first. Provide details of the issue and your desired resolution. If you're unable to reach a resolution, you may consider filing a complaint with a consumer protection agency or seeking legal advice."]
+      },
+      {
+        "tag": "product_safety",
+        "patterns": ["Is this product safe to use?","how to say product is safe", "Are there any recalls on this item?", "Can I trust the quality of this product?", "How do I know if a product is safe?", "What are the safety standards for this product?"],
+        "responses": ["Products should meet safety standards and regulations to ensure they're safe for consumer use. Look for safety certifications, read reviews, and check for any recalls or safety warnings associated with the product."]
+      },
+
+      
+      {
+        "tag": "online_shopping",
+        "patterns": ["How do I shop safely online?","how to shop online safe","how to shop online safely", "What are the risks of online shopping?",  "Are online transactions secure?", "What should I consider before making an online purchase?"],
+        "responses": ["To shop safely online, use secure websites with encrypted payment methods, read product reviews, and be cautious of deals that seem too good to be true. Check return policies and shipping costs before making a purchase."]
+      },
+      
+      {
+        "tag": "price_adjustment_policies",
+        "patterns": [
+            "Does the store offer price adjustments if the item goes on sale after I purchase it?",
+            "What are the conditions for getting a price adjustment?",
+            "How long do I have to request a price adjustment?"
+        ],
+        "responses": [
+            "Price adjustment policies vary by store, but generally, if the price of an item drops after you've purchased it, you may be eligible for a price adjustment within a certain timeframe. This allows you to receive a refund for the price difference. Check with the store for specific details on their price adjustment policy."
+        ]
+    },
+    {
+        "tag": "delivery_and_shipping_policies",
+        "patterns": [
+            "What are the delivery options available?",
+            "what to do if my product is lost or damaged during delivery",
+            "what to do if my product is defective during delivery or shipping",
+            "How long does it take for a product to be delivered?",
+            "What happens if my package is lost or damaged during shipping?"
+        ],
+        "responses": [
+            "Delivery and shipping policies depend on the retailer or service provider. Some offer various delivery options such as standard, expedited, or same-day delivery. The delivery time also varies based on the shipping method chosen and your location. If your package is lost or damaged during shipping, you may be eligible for a refund or replacement depending on the shipping provider's policies."
+        ]
+    },
+    {
+        "tag": "privacy_and_data_protection",
+        "patterns": [
+            "How can I protect my personal information when making online purchases?",
+            "What are my rights regarding the use of my data by companies?",
+            "How do I report a breach of my privacy rights?","how to protect my private data","how to avoid leakage of private information"
+        ],
+        "responses": [
+            "Protecting your privacy and data is important when shopping online. Make sure to use secure websites with HTTPS encryption for transactions and avoid sharing sensitive information unless necessary. Companies are required to adhere to data protection laws and respect your privacy rights. If you believe your privacy rights have been violated, you can report it to relevant authorities such as data protection agencies."
+        ]
+    },
+    {
+        "tag": "consumer_rights_legislation",
+        "patterns": [
+            "What laws protect consumers in India?",
+            "Where can I find information about consumer protection laws?",
+            "What are my rights under the consumer protection laws?"
+        ],
+        "responses": [
+            "Consumer rights legislation varies by country and region. In India there are strict laws which help consumers to protect their insight and privacy. You can find information about consumer protection laws from government websites, consumer advocacy groups, or legal resources. For consumer laws in india you can refer https://consumeraffairs.nic.in/acts-and-rules/consumer-protection. These laws cover a wide range of issues such as product safety, advertising practices, and consumer contracts. It's essential to know your rights under the relevant laws to ensure you are protected as a consumer."
+        ]
+    }
+,
+      {
+        "tag": "customer_service",
+        "patterns": ["How do I contact customer service?","how to contact customer support","how to contact customer helpline", "Is there a helpline I can call?", "Can I chat with a customer representative?", "What are the support options?", "I need assistance from customer support."],
+        "responses": ["You can typically contact customer service or support through various channels, including phone, email, live chat, or social media. Check the seller's website or contact page for available support options and contact information."],
+        "context": ["general"]
+      },
+      {
+        "tag": "contract_disputes",
+        "patterns": ["What should I do if there's a dispute over a contract?", "Can I cancel a contract?", "How do I enforce a contract?", "Are there legal remedies for breach of contract?", "I need help resolving a contract disagreement."],
+        "responses": ["Contract disputes can often be resolved through negotiation, mediation, or legal action if necessary. Review the terms of the contract, gather evidence, and consider seeking legal advice to understand your rights and options for resolution."],
+        "context": ["general"]
+      },
+      {
+        "tag": "price_comparison",
+        "patterns": ["How do I compare prices between different sellers?","how to compare prices","how to get best price", "Can I find better deals elsewhere?", "What are the price comparison tools?", "How do I know if I'm getting the best price?", "Where can I find price comparisons?"],
+        "responses": ["To compare prices between different sellers, you can use online price comparison tools, shop around, and look for discounts or promotions. Consider factors such as shipping costs, taxes, and return policies when comparing prices."],
+        "context": ["general"]
+      },
+
+      {
+        "tag": "product_warranty",
+        "patterns": ["Does this product come with a warranty?", "What's covered under the product warranty?"],
+        "responses": ["Many products come with a manufacturer's warranty, which covers defects or malfunctions within a certain period. Review the warranty terms for details on coverage, duration, and any requirements for registration or extension."],
+        "context": ["general"]
+      },
+      {
+        "tag": "product_warranty2",
+        "patterns": ["How long is the warranty period?","how to extend warranty", "Can I extend the warranty?", "Do I need to register for the warranty?"],
+        "responses": ["The standard warranty period varies depending on the product and the manufacturer. It's best to check the warranty terms provided with your purchase or contact the manufacturer directly for specific information. Some warranties can be extended for an additional fee, but this also varies by product and manufacturer. As for registration, some warranties require you to register your product to activate it, while others may not. Again, it's advisable to consult the warranty documentation or the manufacturer for precise instructions regarding warranty registration."],
+        "context": ["consumer_rights"]
+      },
+      {
+        "tag": "consumer_rights_education",
+        "patterns": ["Can you provide resources for learning about consumer rights?", "Where can I educate myself about my rights as a consumer?", "Are there any courses on consumer protection?", "I want to learn more about consumer rights."],
+        "responses": ["There are various resources available for learning about consumer rights, including online guides, educational websites, and courses offered by consumer advocacy groups or legal organizations. Explore these resources to empower yourself as a consumer."],
+        "context": ["consumer_rights"]
+      },
+      
+
+
+      {
+        "tag": "counterfeit_products",
+        "patterns": ["How do I spot counterfeit products?", "What are the risks of buying counterfeit goods?", "Can I report counterfeit sellers?", "Is it legal to sell counterfeit items?", "How can I avoid purchasing fake products?"],
+        "responses": ["Counterfeit products are often of inferior quality and may pose safety risks. Look for signs of authenticity such as branded packaging, holograms, and serial numbers. Report counterfeit sellers to authorities or consumer protection agencies to help combat counterfeit trade."]
+      },
+      {
+        "tag": "refund_policy",
+        "patterns": [
+          "What is a refund policy?",
+          "What's the return policy?",
+          "How can I get a refund?",
+          "What are my rights regarding refunds?"
+        ],
+        "responses": [
+          "A refund policy is a set of guidelines that outline the conditions under which a customer can return a product and receive their money back. These conditions may vary depending on the store or service provider. Generally, you can get a refund if the product is defective or if you've changed your mind within a certain timeframe. However, it's important to check the specific refund policy of the company you're dealing with."
+        ]
+      },
+      {
+        "tag": "online_scams",
+        "patterns": [
+          "I think I've been scammed online, what should I do?",
+          "How can I report an online scam?",
+          "What are my rights after being scammed online?"
+        ],
+        "responses": [
+          "If you believe you've been scammed online, it's essential to act quickly. First, gather any evidence you have, such as screenshots, emails, or transaction records. Then, report the scam to the appropriate authorities, such as your local consumer protection agency or the website where the scam occurred. You should also contact your bank or credit card company to report the fraudulent transaction and potentially dispute the charges. Remember to change any passwords or security information associated with your accounts to prevent further unauthorized access."
+        ]
+      },
+      {
+        "tag": "product_quality",
+        "patterns": [
+          "What are my rights if I receive a defective product?",
+          "Can I return a product if it doesn't meet my expectations?",
+          "Is there a warranty for the products I purchase?"
+        ],
+        "responses": [
+          "If you receive a defective product or one that doesn't meet your expectations, you generally have the right to return it for a refund or exchange, depending on the store's policy. Many products also come with warranties, which provide additional protection against defects or malfunctions within a specified timeframe. Be sure to check the warranty terms and conditions to understand what is covered and how to make a claim."
+        ]
+      },
+      {
+        "tag": "cancellation_policy",
+        "patterns": [
+          "How can I cancel an order?",
+          "What is the cancellation policy for [company]?",
+          "Can I cancel a service contract?"
+        ],
+        "responses": [
+          "Cancellation policies vary depending on the company and the type of product or service you've purchased. Some companies allow you to cancel orders within a certain timeframe or before the item has shipped, while others may have stricter policies. For service contracts, there may be penalties for early cancellation or specific procedures you need to follow. It's important to review the terms and conditions of your purchase or contract to understand your cancellation rights and any associated fees."
+        ]
+      },
+      
+      {
+        "tag": "consumer_rights_in_finance",
+        "patterns": ["What are my rights as a consumer in financial transactions?","what are my rights in finance","what are my consume rights in financial area", "Can you explain consumer rights in banking?", "How do I dispute unauthorized charges?", "Are there regulations for financial products?","i have a banking issue", "I need help with a banking issue."],
+        "responses": ["Consumer rights in financial transactions cover areas such as banking, lending, and credit. You have the right to accurate information, fair treatment, and protection against fraud or unauthorized charges. Review your rights and responsibilities outlined by financial regulations."],
+        "context": ["general"]
+      },
+      {
+        "tag": "product_recalls",
+        "patterns": ["How do I know if a product has been recalled?", "Where can I find information about product recalls?", "Are there any recent product recalls?", "What should I do if I own a recalled product?", "Can I return a recalled item?"],
+        "responses": ["Product recalls are issued when a product is found to be unsafe or defective. Check manufacturer websites, consumer protection agencies, or government recall databases for information on recalls. Follow instructions for returning or repairing recalled items to ensure your safety."],
+        "context": ["general"]
+      },
+      {
+        "tag": "consumer_rights_at_work",
+        "patterns": ["What are my rights as a consumer in the workplace?","what are my rights at workplace", "Can you explain consumer rights for employees?", "How do I address workplace issues?", "What protections do workers have?", "I need advice on employment rights."],
+        "responses": ["Consumer rights extend to the workplace, covering areas such as fair wages, safe working conditions, and protection against discrimination or harassment. Familiarize yourself with labor laws and employment rights to ensure fair treatment and resolve workplace issues effectively."],
+        "context": ["general"]
+      },
+
+      {
+        "tag": "product_information_source",
+        "patterns": ["Where can I find reliable product information?", "What sources can I trust for product details?", "Are there websites for authentic product reviews?", "How do I verify product specifications?", "I need credible information about a product."],
+        "responses": ["You can find reliable product information from reputable sources such as official manufacturer websites, trusted review platforms, and consumer advocacy organizations. Look for detailed product descriptions, user reviews, and ratings to make informed decisions."],
+        "context": ["general"]
+      },
+      {
+        "tag": "consumer_rights_in_services",
+        "patterns": ["What are my rights as a consumer when using services?", "Can you explain consumer rights for service transactions?", "How do I resolve issues with service providers?", "Are there regulations for service contracts?", "I need assistance with a service-related problem."],
+        "responses": ["Consumer rights in service transactions cover areas such as contracts, warranties, and dispute resolution. You have the right to receive services that meet acceptable standards, and to seek remedies for unsatisfactory service quality or breaches of contract."],
+        "context": ["general"]
+      },
+      {
+        "tag": "eco-friendly_products",
+        "patterns": ["How do I identify eco-friendly products?", "What makes a product environmentally friendly?", "Are there certifications for sustainable products?", "Can I trust green product labels?", "I want to make eco-conscious purchases."],
+        "responses": ["Eco-friendly products are designed to have minimal environmental impact throughout their lifecycle. Look for certifications such as Energy Star, USDA Organic, or Fair Trade to identify sustainable and environmentally responsible products. Consider factors such as materials, manufacturing processes, and packaging when making eco-conscious purchases."],
+        "context": ["general"]
+      },
+      {
+        "tag": "subscription_terms",
+        "patterns": ["What are the terms and conditions for subscriptions?","can i cancel my subscription", "Can I cancel a subscription at any time?", "How do I manage my subscription?", "Are there hidden fees in subscription services?", "I need clarity on subscription policies."],
+        "responses": ["Subscription terms and conditions outline the terms of service, billing cycles, cancellation policies, and other important details. Review subscription agreements carefully before signing up, and keep track of renewal dates and cancellation procedures to manage your subscriptions effectively."],
+        "context": ["general"]
+      },
+      {
+        "tag": "price_matching",
+        "patterns": ["Do retailers offer price matching?", "How does price matching work?", "Can I get a refund if the price drops after purchase?", "Are there price comparison tools for online shopping?", "I want to ensure I get the best price for my purchase."],
+        "responses": ["Some retailers offer price matching policies, which allow you to receive a refund or adjustment if you find a lower price for the same item elsewhere. Check with the retailer for their price matching terms and conditions, and keep receipts or proof of price differences for eligible refunds."],
+        "context": ["general"]
+      },
+
+      {
+        "tag": "product_comparison",
+        "patterns": ["How do I compare products before making a purchase?", "What factors should I consider when comparing products?", "Can you help me decide between different products?", "Are there any tools for product comparison?", "I'm torn between two products."],
+        "responses": ["To compare products effectively, consider factors such as price, features, quality, reviews, and customer satisfaction. You can use online comparison websites, consumer reports, or expert reviews to make informed decisions."],
+        "context": ["general"]
+      },
+      {
+        "tag": "digital_rights",
+        "patterns": ["What are my rights when purchasing digital products?", "Can I return digital downloads?", "Are there regulations for digital services?", "How do I protect my digital rights?", "I need assistance with a digital purchase."],
+        "responses": ["Consumer rights for digital products cover areas such as refunds, privacy, and data protection. Review terms of service and user agreements carefully before purchasing digital goods or services, and understand your rights regarding refunds, usage, and privacy protections."],
+        "context": ["general"]
+      },
+      {
+        "tag": "price_transparency",
+        "patterns": ["How transparent are pricing policies?", "Are there regulations for transparent pricing?", "Can I trust advertised prices?", "What should I do if I'm misled by pricing information?", "I want to ensure pricing transparency in my purchases."],
+        "responses": ["Pricing transparency is important for consumer trust and fairness. Look for clear and accurate pricing information, including any taxes, fees, or additional charges. Report misleading or deceptive pricing practices to consumer protection authorities for investigation and enforcement."],
+        "context": ["general"]
+      },
+      {
+        "tag": "ethical_consumerism",
+        "patterns": ["How can I be a more ethical consumer?", "What does ethical consumerism entail?", "Are there ethical brands I can support?", "Can I make ethical choices as a consumer?", "I want to make ethical purchasing decisions."],
+        "responses": ["Ethical consumerism involves making purchasing decisions that align with personal values and ethical considerations. Look for brands and products that prioritize sustainability, fair labor practices, environmental responsibility, and social impact. Consider factors such as certifications, supply chain transparency, and corporate responsibility when choosing products or services."],
+        "context": ["general"]
+      },
+      {
+        "tag": "consumer_rights_education",
+        "patterns": ["Can you provide resources for learning about consumer rights?", "Where can I educate myself about my rights as a consumer?", "Are there any courses on consumer protection?", "I want to learn more about consumer rights."],
+        "responses": ["There are various resources available for learning about consumer rights, including online guides, educational websites, and courses offered by consumer advocacy groups or legal organizations. Explore these resources to empower yourself as a consumer."],
+        "context": ["general"]
+      },
+      {
+        "tag": "product_liability",
+        "patterns": ["Who is liable for defective products?", "What are my rights if I'm injured by a product?", "Can I sue for product defects?", "Are manufacturers responsible for product safety?", "I need legal advice regarding product liability."],
+        "responses": ["Product liability laws hold manufacturers, distributors, and sellers responsible for injuries or damages caused by defective products. If you've been injured or suffered losses due to a defective product, you may be entitled to compensation. Consult with a lawyer specializing in product liability for legal advice and representation."],
+        "context": ["general"]
+      },
+      {
+        "tag": "consumer_rights_in_housing",
+        "patterns": ["What are my rights as a renter?", "Can you explain tenant rights?", "How do I address landlord disputes?", "Are there regulations for rental agreements?", "I need assistance with a housing issue."],
+        "responses": ["Tenant rights protect renters from unfair practices and ensure safe and habitable living conditions. Review your rental agreement, know your rights regarding rent increases, repairs, eviction, and privacy. Seek legal advice or contact tenant advocacy organizations for assistance with housing issues or disputes."],
+        "context": ["general"]
+      },
+      {
+        "tag": "food_safety_standards",
+        "patterns": ["How do I know if food products are safe?", "What are the food safety standards?", "Can I trust food labels?", "Are there regulations for food hygiene?", "I want to ensure food safety in my purchases."],
+        "responses": ["Food safety standards regulate the production, handling, and labeling of food products to ensure they're safe for consumption. Look for food labels indicating quality certifications, ingredients, expiration dates, and storage instructions. Report any concerns about food safety or quality to relevant authorities for investigation."],
+        "context": ["general"]
+      },
+      {
+        "tag": "sustainability_labels",
+        "patterns": ["What do sustainability labels mean?", "Can I trust eco-friendly product labels?", "Are there certifications for sustainable practices?", "How do I identify sustainable products?", "I want to make environmentally responsible purchases."],
+        "responses": ["Sustainability labels indicate that products meet certain environmental standards or practices, such as organic farming, fair trade, or renewable materials. Look for recognized certifications like USDA Organic, Fair Trade, or Energy Star to identify products with sustainable attributes. Consider factors such as environmental impact, resource conservation, and social responsibility when making sustainable purchasing decisions."],
+        "context": ["general"]
+      },
+
+      {
+        "tag": "consumer_definition",
+        "patterns": ["Who is a Consumer ?","what do you mean by consumer", "who is non-consumer", "what is the diffrence between consumer and non-consumer"],
+        "responses":["A Consumer is a person who purchases a product or avails a service for a consideration, \neither for his personal use or to earn his livelihood by means of self employment. The consideration may be:\n- Paid\n- Promised\n- Partly paid and partly promised.\nIt also includes a beneficiary of such goods/services when such use is made with the\napproval of such person.\n \n A person is not a consumer if he/she:\n- purchases any goods or avails any service free of charge;\n- purchases a good or hires a service for commercial purpose;\n- avails any service under contract of service"]
+      },
+
+      {
+        "tag": "goods",
+        "patterns": ["What is Goods ?","what do you mean by goods?", "what can be considered as goods?"],
+        "responses":["“Goods” means every kind of movable property other than actionable claims and\n money, and includes stock and\n shares, growing crops, grass and things attached to or \n forming part of the land, which are agreed to be severed before sale or under the contract of the sale."]
+      },
+
+      {
+        "tag": "defects",
+        "patterns": ["What is defects ?","what do you mean by defects?", "can you explain me about defects"],
+        "responses":["“Defect” means any fault, imperfection or shortcoming in the quality, quantity, potency, \npurity or standard which is required to be maintained by or under any law for time\n being in force or under any contract, express or implied, or as is claimed by the trader in\n any manner whatsoever in relation to any goods"]
+      },
+
+      {
+        "tag": "services",
+        "patterns": ["What is service ?","what do you mean by service?","service means?"],
+        "responses":["“Service” means service of any description which is made available to potential users\nand include, but not limited to, the provision of facilities in connection with banking,\nfinancing, insurance, transport, processing, supply of electrical or other energy, board or\nlodging or both, housing construction, entertainment, amusement or the purveying of\nnews or other information, but does not include the rendering of any service free of\ncharge or under a contract of personal services."]},
+        {
+          "tag": "contract_in_service",
+          "patterns":["what is contract in service like contract of service and contract for service", "what is/are contract in service"],
+          "responses":["=>Contract of Service - It implies a relationship of a master and servant and\ninvolves to obey the order in the works to be performed and as to its mode and\nmanner of performance. This does not come within the purview of CP Act.\n \n =>Contract for Service - It implies a contract whereby one party undertakes to\nrender services e.g., profession or technical services to or for another in the\nperformance of which, he is not subject to detailed direction and control but\nexercises professional skills and uses his own knowledge and decisions."]},
+        {
+          "tag": "deficiency_in_service",
+          "patterns":["what is deficiency in service", "what does deficiency in service means", "what is deficient service"],
+          "responses":[ "“Deficiency” means any fault, imperfection shortcoming or inadequacy in the quality,\nnature and manner of performance which is required to be maintained by or under any\nlaw for time being in force or has been undertaken to be performed by a person in\npursuance of a contract or otherwise in relation to any service."]
+      }
+  
+]
+}
